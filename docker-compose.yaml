@@ -1,0 +1,8 @@
+version: '3'
+services:
+  druid:
+    build:
+      context: .
+    ports:
+      - "8888:8888"
+      - "8081:8081"
